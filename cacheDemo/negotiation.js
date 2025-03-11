@@ -1,0 +1,1 @@
+console.log('negotiation.js loaded')

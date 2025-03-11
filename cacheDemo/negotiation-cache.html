@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>协商缓存演示</title>
+  <script src="/negotiation.js"></script>
+</head>
+<body>
+  <h1>协商缓存演示</h1>
+  <p>当前时间：<span id="time"></span></p>
+  <button onclick="location.reload()">强制刷新</button>
+  <a href="/">返回首页</a>
+  <script>
+    document.getElementById('time').textContent = new Date().toLocaleString();
+  </script>
+</body>
+</html>
